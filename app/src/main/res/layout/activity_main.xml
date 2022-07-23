@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="67dp"
+        android:layout_x="13dp"
+        android:layout_y="233dp"
+        android:text="7"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="197dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:layout_x="8dp"
+        android:layout_y="516dp"
+        android:text="0"
+        android:textColor="#A14A2F"
+        android:textSize="18sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnequal"
+        android:layout_width="wrap_content"
+        android:layout_height="92dp"
+        android:layout_x="317dp"
+        android:layout_y="515dp"
+        android:text="="
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "calculate"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btndot"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="1dp"
+        android:layout_x="214dp"
+        android:layout_y="515dp"
+        android:text="."
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="69dp"
+        android:layout_x="221dp"
+        android:layout_y="409dp"
+        android:text="3"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_x="117dp"
+        android:layout_y="414dp"
+        android:text="2"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_x="14dp"
+        android:layout_y="419dp"
+        android:text="1"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnsub"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_x="319dp"
+        android:layout_y="413dp"
+        android:text="-"
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="66dp"
+        android:layout_x="13dp"
+        android:layout_y="326dp"
+        android:text="4"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_x="114dp"
+        android:layout_y="329dp"
+        android:text="5"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="318dp"
+        android:layout_y="328dp"
+        android:text="+"
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="wrap_content"
+        android:layout_height="63dp"
+        android:layout_x="216dp"
+        android:layout_y="328dp"
+        android:text="6"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_x="118dp"
+        android:layout_y="236dp"
+        android:text="8"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btnac"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="15dp"
+        android:layout_y="151dp"
+        android:background="#FBDE5A"
+        android:text="AC"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "allClear"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_x="217dp"
+        android:layout_y="232dp"
+        android:text="9"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btndiv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_x="319dp"
+        android:layout_y="152dp"
+        android:text="/"
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btnmod"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_x="218dp"
+        android:layout_y="152dp"
+        android:text="%"
+        android:textColor="#A14A2F"
+        android:textSize="30sp"
+        android:onClick = "getInput"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btndel"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_x="116dp"
+        android:layout_y="149dp"
+        android:text="DEL"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        android:onClick = "backspace"
+        app:backgroundTint="#FBDE5A" />
+
+    <Button
+        android:id="@+id/btnmul"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_x="317dp"
+        android:layout_y="233dp"
+        android:onClick="getInput"
+        android:text="*"
+        android:textColor="#A14A2F"
+        android:textSize="24sp"
+        app:backgroundTint="#FBDE5A" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="139dp"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" "
+        android:textSize="24sp" />
+</AbsoluteLayout>
